@@ -1,0 +1,10 @@
+our task this week is to complete the following functions in the BinarySearchTree class given below
+
+output() should print the values in the tree in ascending order (consider implementing a recursive helper function for this one);
+insert(int value) should insert the given value into the tree, preserving the order;
+remove(int value) should remove the given value from the tree (if it is contained), preserving the order.
+The lecture slides contain descriptions of how these operations are supposed to work. For some of these, it is a good idea to use the existing auxiliary functions.
+
+You can test your implementation using the main function, which generates an array of random values and subsequently inserts them into a tree and removes them again. It optionally also prints the array and the tree after insertion (controlled by the printResults variable).
+
+Run some tests to see if your implementation is correct (setting numValues to a low-ish number and printResults to true). Once all three functions work as intended, run some timing tests (using bigger numbers of values, doubling between tests, with printResults = false)

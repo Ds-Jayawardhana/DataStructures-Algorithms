@@ -1,0 +1,12 @@
+For this week's tutorial, we will look at another implementation of Divide and Conquer: computing powers of matrices.
+
+The idea is that if we have a matrix A and want to compute A^n = A*A*...*A, we can split this power:
+
+If n is 1, the result is just A itself
+If n is even (e.g. A^6) we can split this into two equal parts (A^3 in the example) and then square the result
+If n is odd (e.g. A^7) we can split this into two equal parts and one extra A; so we square the former and then multiply by A.
+Write a program that does the following:
+
+Implement the brute force version of computing matrix powers (using e.g. two-dimensional arrays to represent matrices)
+Implement the Divide and Conquer version described above
+Compare the two versions on some matrices for different powers (you will also want an auxiliary function to print a matrix in order to check the results of your functions). 
